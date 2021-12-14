@@ -31,6 +31,7 @@ const Example = () => {
         // Located on https://cloudinary.com/console/
         uploadPreset={'preset1'} // check that an upload preset exists and check mode is signed or unisgned
         buttonText={'Open'} // default 'Upload Files'
+        className={'btn'} // indicate your button class by the class. Default = ''
         style={{
               color: 'white',
               border: 'none',

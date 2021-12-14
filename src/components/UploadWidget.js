@@ -9,6 +9,7 @@ const UploadWidget = ({
   cloudName = null,
   uploadPreset = null,
   buttonText = null,
+  className= '',
   style = null,
   folder = null,
   cropping = true,
@@ -59,6 +60,7 @@ const UploadWidget = ({
       buttonText={buttonText}
       buttonType={buttonType}
       style={style}
+      className={className} // button certainly need classname
     />
   )
 }
